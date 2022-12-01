@@ -1,0 +1,82 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 50 -- tempo overides the delay
+
+    shared.scr = [[ [oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-hg-Dg--
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-Dg-dD---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[oh][ig]-[YD][ig]---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[YD][ig]-[yd][YD]---
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-hg-Dg--
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-Dg-dD---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[oh][ig]-[YD][ig]---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[YD][ig]-[yd][YD]---
+[oh][PJ][PJ][PJ]--[sl]-[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+P-oi-Yt-yY-
+P-oi-Yt-YE-
+t-YE-Et-yY-O
+o-oi-Yi--
+P-oi-Yt-yY-
+P-oi-Yt-YE-
+t-YE-Et-yY-O
+o-Yi-yY---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[oh][ig]-[YD][ig]---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[YD][ig]-[yd][YD]---
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]--[sl]-[PJ]
+[oh]-[YD] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
