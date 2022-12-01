@@ -1,0 +1,58 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 80 -- tempo overides the delay
+
+shared.scr = [[ [8h]-[0G]-[wh]----
+[9h]-[QG]-[eh]----
+[0h]-[wG]-[rf]--d d 
+7-9-Q-a-d 
+[8f]-0-w-f-h 
+[29j]----h-j 
+[30k]-[29d]-[30f]-[29d]-[30f]-
+[30af]-[29pd]-[30af]-[29pd]-[30af]-
+[30af]-[29pd]-[30af]-[29pd]-[30af]-
+[0f]-[wh]-[yG]-d f d 
+9-Q-w p o p s 
+[8a] uQ-w----
+9 uQopea-p a d 
+[0f]-[wh]-[yG]-d f d 
+9-Q-w k j k l 
+[8k] hQ-w--h 
+[9G]-[QG]-[eh] j--h 
+[0j]-[wh]-[yf]-h-k-j
+9 bQb [wb] b-n-h 
+[8j]-[Qh]-[wf]-h-z-
+9 bQb [eb] b-C-h 
+[0j]-[wh]-[yf]-h k j 
+9-Qj [wk] j k z k 
+[8j]-[Qh]-w--h 
+[9G]-[QG]-[eh] j--
+[80wh]-G-h----
+[Q9eh]-G-h----
+[0wrh]-G-f--d d 
+[79Q]----a-d 
+[18f]-[18]-[18] f [18] h 
+[29j]-[29]-[29] h [29] j 
+[30k] [30p] [30a] [30d] [30f] [30G] [30h] [30G]--
+d-d-k-
+[158j] k z [158k] j kk[158] h 
+[269j] k z [269k] j kk[269] d 
+[370d] hh-[370d] d h [370j] h 
+[$7z]-l [$7] k-j[$7] h 
+[158h]--[158h]-j [158k] j 
+[7@(]--[@(7j]-k [@(7z] k 
+[30]-[29pd]-[30af]-[29pd]-[30af]-
+7-6d 7 d6-[7k]-
+[1358j] k z [1358k] j kk[1358] h 
+[$269j] k z [$269k] j kh[$269] h 
+[@$(7h]-j-[@$(7k]-k [@$(7v] C 
+[3570]-z [3570] k-j[3570] h 
+[18h] [18] [18] [18h] [18] [18j] [18k] [18j] 
+[29]--j j-k-
+[30af]-[29pd]-[30af]-[29pd]-[30af] [30af] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
