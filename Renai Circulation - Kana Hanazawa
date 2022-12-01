@@ -1,0 +1,55 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by -)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ f--H
+-S-S-a f-f-fa
+S-S-a f-H-fa
+S-S-a f-f fG
+f-f fS H--
+f-f fG H-f-aS
+f-f fG H-f-S
+f Sf-S f Sf-f
+jH f-S H--
+f-f fG H-f-aS
+f-f fG H-f-S
+f Sf-S f Sf-f
+jH f-G f-f G
+Hffff fff f f HH-
+ffH fff fH f a
+f af-afffH HHj
+Hf-f HjH jH-H
+fffff H faa-ff
+Hf fHf f fHHf-
+HfffafffaffH f-
+a ffH ffffGf--
+H j H j k-H j
+H j k-k j H j
+Hf f fS Hf f fS
+f-f-S H--
+H j H j k-H j
+H j k-k j H j
+Hf f fS Hf f fG
+ff f fH f--
+k-H-G-H-
+G f G H--H
+L-H-G-f-
+f G H G----
+k-H-G-H-
+G f G H--H
+L-H-f-H-
+f----fa
+S-S-a f-f-fa
+S-S-a f-H-fa
+S-S-a f-f-G
+f-f-S H--fa
+S-S-a f-f-fa
+S-S-a H-f-fa
+S-S-a f-f-G
+f-f-H f ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
