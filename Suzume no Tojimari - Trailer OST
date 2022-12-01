@@ -1,0 +1,49 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 35 -- tempo overides the delay
+
+    shared.scr = [[ y-p-piuy t et
+y uioiu t--
+y-p-piuy t et
+y uioiu y--
+[9y]-Op E[ep]iuy t [9e][8t]
+[9y] uioi[8u] [9t]--6
+[2y]-Op E[ep]iuy t [9e][8t]
+[9y] uioi[6u] [9y]----
+[2d]zljcxljzjhljcxl
+jzjlcxlzjlhjxjlh
+[2d]zljcxljzjhljcxl
+jzjlcxlzjlhjxjlh
+[2y]dspgfspdpospgfs
+pdpsgfsdpsopfpso
+[2y]dspgfspdpospgfs
+[2p]dpsgfsdpsopfpso
+[2y]dspgfsp[2d]pispgfs
+[2p]dpsgfsd[2p]Pio[2d]osi
+[^ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^Pid]y[tf][eg][ih][ug][tf]e[yis]ewtEiut
+[5ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^P1id]y[tf][eg][18h][ug][tf]e[29pd]ewteiut
+[^ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^Pid]y[tf][eg][ih][ug][tf]e[yis]ewtEiut
+[5ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^P1id]y[tf][eg][18h][ug][tf]e[29pd]ewteiut
+[^y][id][Es][qp][ig][Ef][qs][iP][Ed][qp][^i][4s][18p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][4qp]s[io][tp][6f][tp][qd][8o]
+[^y][id][Es][qp][ig][Ef][qs][ip][Ed][qp][^o][4s][18p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][6ep]s[io][tp][18f][tp][qd][8o]
+[^y][id][Es][qp][ig][Ef][qs][ip][Ed][qp][^o][4s][28p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][6ep]s[io][tp][18f][tp][qd][8o]
+[^y][id][Es][qp][ig][Ef][qs][ip][Ed][qp][^o][4s][18p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][4qp]s[io][tp][6f][tp][qd][8o]
+[5y][yd][ws][9p][yg][wf][9s][yp][wd][9p][5o][2s][^p][yg][wf][9s]
+[6p][ud][ep][0s][eg][0f][6s][3d][6p][6P][6i][6o][6d][6o][6s][6i]----
+z-
+b-bcxz l jl
+z xcvcx z ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
