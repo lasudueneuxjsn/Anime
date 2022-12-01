@@ -1,0 +1,77 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 40 -- tempo overides the delay
+
+    shared.scr = [[ [ig][sh]jx----
+[ud][ah]l----
+[ys][pg]J--[Tf][Ij][az]----
+[qru]----
+f f f f d f j
+f dd----
+[eyo] d d d d s d h
+d s a s--pa
+[wtis] s s s s--pa
+[qrus] s s s a s-pa
+[0eys] s s s s h-s
+[9wtd]--[0ey]--
+[4eru] f f f f d f j
+[5f] [qd]dw y----
+[10ey] d d d d s d h
+[1d] [6s] [9a] [ws]--pa
+[9eis] s s s [yis]--pa
+[0yuos] s s s [ta] s-pa
+[YOqts] s s s [is] h-gD
+[wtyid]--[Oruf]-[Orig]-
+[4psdh] [8psdh] q [epsdh] [O3ah] [7dg] [0sf] [Wad]
+[6ad] [0sf][ps]e t [E5yi] e [E8wtu] [uf][ig]
+[4psdh] [8psdh] [qpsdh] [epsdh] [O3ah] [7dg] [0sf] [Wad]
+[6ad] [0sf] e t u t [ups] [td]
+[2I]sf6 9 [Qp] [es] Q t e
+[59etu]-[eti]-[59qey]-s d
+[9etI]af--p s--
+[5tyip] 9 q e y j k f
+[el] [ul] [sz] [ul] [wk] u [af] [uh]
+[qj] [tj] [ph] [tg] [0h] t o o
+[(wto] i i Y [9qti]-t i
+[(Yro]--[riO] [59eyo]-[pj] [ak]
+[6s]fjl[0sfjl] [tdz] [0sl] [5a]fhk0 [ruf] [0oh]
+[4p]sfj[8psfj] [eoh] [8ig] [3o]sdh8 w [oh]
+[(oh] [wig] [tig] [wYD] [9ig] q [toh] [qOH]
+[*PJ] [qOH] [EOH] [qoh] [8OH] 0 [Eoh][OH]0[PJ]
+[4s]gHl8 W 8 @ 8 [wOH] [8PJ]
+[2s]gHl9 q W t [Wsl] [qak] [Wsl]
+[5dz] 9 w r y h l k
+[qerul]--f f d f j
+[if]paj j j j h j z
+k-j [dhl]
+uopduopduopd[uk]opd
+[Ih]paf[Ij]pafIpafIpaf
+[yhv]iosyios[ygc]ios[ysl]ios
+[udz]opduopd[ufx]opduopd
+[4qeru]----
+[30wtyo]----
+[ti@(P]----[ti@(P]-
+[6eyups]----
+[qf]eud f j f--
+[0d]wys d h d--pa
+[9s] e y u I a s d
+[I7pf] Q e r [0yO]-j k
+[ejl]f[ujl]f[skz]f[ujl]f[whk]f[uhk]f[af]s[uh]s
+[qgj]s[tgj]s[pfh]s[tdg]s[0h]s[td] [os] o
+[(wto] i i Y [9qti]-t i
+[(Yro]--[riO] [59eyo]-[pj] [ak]
+[6s]fjl[0sfjl] [tdz] [0sl] [5a]fhk0 [ruf] [0oh]
+[4p]sfj[8psfj] [eoh] [8ig] [3o]sdh8 w [oh]
+[(oh] [wig] [tig] [wYD] [9ig] q [toh] [qOH]
+[*PJ] [qOH] [EOH] [qoh] [8OH] 0 [Eoh][OH]0[PJ]
+[4s]gHl8 W 8 @ 8 [wOH] [8PJ]
+[2s]gHl9 q W t [Wsl] [qak] [Wsl]
+[5dz] 9 w r y h l k
+[qerul]-q e r u p a
+j k gjkx ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
