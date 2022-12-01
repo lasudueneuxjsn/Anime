@@ -1,0 +1,97 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 55 -- tempo overides the delay
+
+    shared.scr = [[ [9d]SapaSdSa[9p]aS
+dSapaS[9d]Sap-
+[0f]dSaSdfdS[0a]Sd
+fdSaSd[eS]dDf-
+[wk]Lz[0h]jk[Qj]kL[9G]hj
+[0h]jk[*f]Gh[9G]hj[7d]fG
+[6f]DdSsaPpOoIi
+u-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [0u] o [6S] S [0a] p
+[wo]-[7o] I [wr] T Q y
+[0u]-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [6u] o [0S]-[6a] p
+[0o] o [6I] u [0T]-[6u]-
+[9y]-9-0-Q-
+[wa]-[wa] p [9o]pa[9p]-
+[0u] I [0O] u [6p]-6-
+[0a]-[6p]-[0u] I [0O] u
+[6p]-6-e-6-
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[9y]-6-9-6-
+[9d] d [6S] S [9a] a [6p] p
+[9a] a [6S] S [9d]-[6d]Sd
+[0f] a [7a]-[0f] a [7a]-
+[0a] S [7d] a [0f]-6-
+[9d] d [6S] S [9a] a [6p] a
+[9G] G [QG]fG[wh]-7 d
+[0a] P [0a] d [6S] d [6f]-
+[9d]-6-9 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [0u] o [6S] S [0a] p
+[wo]-[7o] I [wr] T Q y
+[0u]-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [6u] o [0S]-[6a] p
+[0o] o [6I] u [0T]-[6u]-
+[9y]-9-0-Q-
+[wa]-[wa] p [9o]pa[9p]-
+[0u] I [0O] u [6p]-6-
+[0a]-[6p]-[0u] I [0O] u
+[6p]-6-e-6-
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[Qy]-6-9er[6T]yu
+[9I]iI[6y] e [9I]uI[6y] e
+[0o]Io[6u]-[T6u] [T6u] [T6u]-
+[0o]Io[6u] e [0o]Io[6u] e
+[9I]oO[6p]-[I9p] [I9p] [I9p]-
+[5a]Pa[9P]aP[5a] S [5d] a
+[9p]Op[6O]pO[9p] S [9d] p
+[6S]sS[0s]Ss[6S] f [6f]dS
+[9d]-6-9 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [0u] o [6S] S [0a] p
+[wo]-[7o] I [wr] T Q y
+[0u]-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [6u] o [0S]-[6a] p
+[0o] o [6I] u [0T]-[6u]-
+[9y]-9-0-Q-
+[wa]-[wa] p [9o]pa[9p]-
+[0u] I [0O] u [6p]-6-
+[0a]-[6p]-[0u] I [0O] u
+[6p]-6-e-6-
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[9y]-6-9 9 0 Q
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[9y]-6-9 d [Qf] G
+[wh]Gh[9G] h [wG] f 9 g
+[eG]gG[9g] G [ef] d 9-
+[wa]-[wa]-[eS] d [ef]-
+[wa]-[wa]-[eS] d [ef] [9d]----
+[9y] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
