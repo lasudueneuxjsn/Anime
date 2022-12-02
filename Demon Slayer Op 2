@@ -1,0 +1,136 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
+
+shared.scr = [[ [!CV]-a-
+[0uO]-Y-[TYO]-r-[QIS]--
+[o@(PSD]----
+[%DH]--[ETI]-[rYO]-[ETI]-
+[rYO]-[rYO]-[ETI]-[YO] 
+[%WIS]-[IP]-[0TI]-[rYO]-[QTIP]-
+[EIa] [rIS] [TID]----
+[a%OD]-% [3IPS]-[aG] 3 [$Sf]-
+[aD] [$Q] [PS] [$Q] [Ia] [$Q]-
+[a%D] [Oa] % [3OS]-[uO] 3 [$k]L
+[GZ] [Gk] [$Q] [GL] [$Q] [SH] [$Q]-
+[a%OD]-% [3IPS]-[aG] 3 [$Sf]-
+[aD] [$Q] [PS] [$Q] [Ia] [$Q]-
+[a%D] [Oa] % [3OS]-[uO] 3 [$TI]-
+[TO]-[$Ia]-[@(IP]--
+[%YO]-[%H] % [%D] [%S] [%S] [%a] 
+[3a] 3 [3S] 3 [3O] 3 3 3 
+! * [!H] * [!D] [*S] [!S] [*a] 
+[$a] $ [$D] $ [5P] 5 [5D] 5 
+% [%P] [%GJ] [%DH] [%GJ] %[GJ]% [%DH] 
+[3GJ] 3 [H3k] 3 [3DH] 3 [3kZ] 3 
+[!JL] * [k!Z] * [!JL] * [!DH] [*DH] 
+[@Hk] @[GJ]@ [@DH] [@Dh]--
+[0k]ruL Z-C-Z L 
+L-Z-k--
+[7k]QrL Z-C-Z L 
+L L C-Z--Z 
+[QV]TI-C-Z V-C-Z 
+V-C-Z L-k-
+[k%Z](W--[Lx] [k%Z](W--[Lx] 
+[k%(WZ]--O O-P-
+[!Oa] * [!PS] * [a@D] ( [@af] ( 
+[3aG] 0 [3a] 0 [O4a] q [4PS] q 
+[@PS] ( @ ( @ ( [@(Pf] [@(PD]-
+[@(] [@(] [@(] [Hk] [GJ] [DH] [SG] 
+[%DH] % [%HZ] % [%Hk] [%GJ] [%DH] [%SG] 
+[3DH] [3DH] [3HZ] 3 [3DH] 3 3 [3SG] 
+[$SG] $ $ [$PS] [$PS] $ [$SG] $ 
+[7af] 7 7 [7aD] [7aD] 7 7 7 
+[!DH] * [!DG] [a*D] [!DH] * [!DG] [a*D] 
+[@DH] ( [@DG] [a(D] [@OS] ( @ [(Oa] 
+[O3a] 0 [3PS] 0 [3aD] 0 [H3k] 0 
+[$QGJ] [$Q]--[Hk] [GJ] [DH] [SG] 
+[%DH] [%DH] [%HZ] % [%Hk] [%GJ] [%DH] [%SG] 
+[3DH] [3DH] [3HZ] 3 [3DH] 3 3 [3SG] 
+[$SG] $ $ [$PS] [$PS] $ [$SG] $ 
+[7af] 7 7 [7aD] [7aD] 7 7 7 
+[!DH] * [!DG] [a*D] [!DH] * [!DG] [a*D] 
+[@DH] ( [@DG] [a(D] [@OS] ( @ ( 
+[%DH] W [%DG] [aWD] [%DH] W [%DG] [aWD] 
+[4qDH]-[4qfk]-[4qHL]-[4q]-
+[O3a] 0 [3PS] 0 [3aD] 0 [H3k] 0 
+[@(GJ] [@(]--[DG]-[DH]-
+[a%OD]-% [3IPS]-[aG] 3 [$Sf]-
+[aD] [$Q] [PS] [$Q] [Ia] [$Q]-
+[a%D] [Oa] % [3OS]-[uO] 3 [$k]L
+[GZ] [Gk] [$Q] [GL] [$Q] [SH] [$Q]-
+[a%OD]-% [3IPS]-[aG] 3 [$Sf]-
+[aD] [$Q] [PS] [$Q] [Ia] [$Q]-
+[a%D] [Oa] % [3OS]-[uO] 3 [$TI]-
+[TO]-[$Ia]-[@(IP]--
+[%YO]-[%H]-D [%S] [%S] [3a] 
+a-S-O 3-@ 
+!-H-D [%S] [*S] [$a] 
+a a D-P [5P] [$D] % 
+% [%P] [%GJ] [%DH] [%GJ] %[GJ]% [%DH] 
+[3GJ] 3 [H3k] 3 [3DH] 3 [3kZ] 3 
+[!HL] * [k!Z] * [!HL] * [!DH] [*DH] 
+[$Hk]-[$GJ]-[$DH] [@(Dh]--
+[3a] [3S] [3D] 3 [3G] 3 [3D] [3S] 
+[3S] [3S] [3D] 3 [3a] 3 3 3 
+[a?] [7S] [D?] 7 [G?] 7 [D?] [7S] 
+[S?] [7S] [G?] 7 [D?] 7 ? [7D] 
+[$H] $G$ [$D] [$H] $G$ [$D] 
+[$H] $G$ [$D] [$S] $ [$a] $ 
+[a%D] % % [%Sf] [a%D] % % [%Sf] 
+[a%D]--O O [4q] P-
+[!Oa] * [!PS] * [a@D] ( [@af] ( 
+[3aG] 0 [3a] 0 [O4a] q [4PS] q 
+[@PS] ( @ ( @ ( [@(Pf] [@(PD]-
+[@(] [@(] [@(PD] [PD]-[Dh]-
+[3aH] 0 3 0 [3OS] 0 3 0 
+[3aD] 0 3 0 [3DG] 0 3 0 
+[@Ia] ( @ ( [@IS] ( @ ( 
+[a@D] ( [@G] [(I] @ ( @ ( 
+[!Of] [*ID] [u!S] [*Ya] ! [u*S] ! [*Ya] 
+[5TP] [5TP] [5TP] [5TP] 5 5[uO]5 [5TP] 
+[%Ya] % % [%OD] % % [%DJ] % 
+$ [$TI] [$TI] [$TI]-[$TI] $ $ 
+[3YO] 3 3 3 [3IP] 3 3 3 
+[O3a] 3 3 3 [3aD] 3 3 3 
+[%YO] % % % [%YP] % % % 
+[%Os] % % % [%YO] % [%IP] % 
+[!Oa] * [!PS] * [a@D] ( [@af] ( 
+[3aG] 0 [3a] 0 [O4a] q [4PS] q 
+[@(PS]--[@(]--[@(Pf]-
+[@(PD]--[@(]--[@(]-
+[h@(J]--[@(]--[@(] [@(PD]----
+[Hk] 
+[GJ] [DH] [SG] 
+[%DH] % [%HZ] % [%Hk] [%GJ] [%DH] [%SG] 
+[3DH] [3DH] [3HZ] 3 [3DH] 3 3 [3SG] 
+[$SG] $ $ [$PS] [$PS] $ [$SG] $ 
+[7af] 7 7 [7aD] [7aD] 7 7 7 
+[!DH] * [!DG] [a*D] [!DH] * [!DG] [a*D] 
+[@DH] ( [@DG] [a(D] [@OS] ( @ [(Oa] 
+[O3a] 0 [3PS] 0 [3aD] 0 [H3k] 0 
+[$QGJ] [$Q]--[Hk] [GJ] [DH] [SG] 
+[%DH] [%DH] [%HZ] % [%Hk] [%GJ] [%DH] [%SG] 
+[3DH] [3DH] [3HZ] 3 [3DH] 3 3 [3SG] 
+[$SG] $ $ [$PS] [$PS] $ [$SG] $ 
+[7af] 7 7 [7aD] [7aD] 7 7 7 
+[!DH] * [!DG] [a*D] [!DH] * [!DG] [a*D] 
+[@DH] ( [@DG] [a(D] [@OS] ( @ ( 
+[%DH] W [%DG] [aWD] [%DH] W [%DG] [aWD] 
+[4qDH]-[4qfk]-[4qHL]-[4q]-
+[O3a] 0 [3PS] 0 [3aD] 0 [H3k] 0 
+[@(GJ] [@(]--[DG]-[DH]-
+[a%OD]-% [3IPS]-[aG] 3 [$Sf]-
+[aD] [$Q] [PS] [$Q] [Ia] [$Q]-
+[a%D] [Oa] % [3OS]-[uO] 3 [$k]L
+[GZ] [Gk] [$Q] [GL] [$Q] [SH] [$Q]-
+[a%OD]-% [3IPS]-[aG] 3 [$Sf]-
+[aD] [$Q] [PS] [$Q] [Ia] [$Q]-
+[a%D] [Oa] % [3OS]-[uO] 3 [$TI]-
+[TO]-[$Ia]-[@IP]-[%YO] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
