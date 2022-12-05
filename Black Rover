@@ -1,0 +1,140 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = 153 -- time in seconds for the song to finish (extended by |)
+
+    shared.scr = [[ G I G I H I H I 
+g I g I G I G I 
+D I D I g I g I 
+s I s I S I S I 
+d I d I f I f I 
+a I a [@I] [^(S] @ 7 [@(TI]-
+[@O] [^(SH] [@O] [@i] [^(] [TI]-
+7 [7Y] [r*QID] D [7GZ] [7D] [(Q] [yi^P]-
+[^P] [qdEJ] P [^i] ^ [Eqy]-
+^ [^y] [Eqid] d [^gz] [^d] [qE] [7rYI]-
+[7I] [ra(QG] I [7S] 7 [(QYIP]-
+7 [7P] [r(QDJ] J [7ZB] [7J] [r(QDJ] P 
+[%YP]-[%YP]-[%YP]-[%YOS]-[(W]-
+[!*TI] % q * [%Ti] ! !-
+[@(TI]-[QE] (-( [QES]-
+[(S]-S[QE]S( S (a[QE][YIP]-
+[$7]-[QEO] (-( [QES]-
+[(S]-S[QE]S( S (D[QE]-[OS]
+%-[QEP] (-( [QEP]-
+[(P]-[QEa] ( P ( [QES]-
+[4yi^O]-[qW] 9 S 9 [qW]-
+[9I]-[qW] ^ [Eqi] ^ [4^] ^ 
+[@EYI]-( ^ [@IPG] ^ [QIPG] ^ 
+[@IPG] ^ [(IPG] [^IPG] @ [^Oig] Q [IPDG] 
+7-E Q [7IPG] Q [YIPG] Q 
+[7IPG] Q [EIPG] Q 7 Q [Yig] [IPDG] 
+%-E ( [%IPG] ( [rIPG] ( 
+[%YD] [(ig] [EIG] [(IG] % [(ig] [rYD]-
+[^Oyid]-I [Wqyi] O ^I--i 
+[yi]^ E q [9I] ^ [^i]-
+[7rQY]-7-[7rY]-[7Y] [ryi] 
+^-[^ryi]-[^E] [yi] [^W]-
+[@(QYI]-@ I [@EYI]-[@I] [YIa] 
+@-[@a] [YIa] @ [YIP] @-
+[7YIS]-7-[YI7a]-7-
+[yi^P]-^-[yi^O]-^-
+[@(YIa]-@-[@YIP]-@-
+[QYO]-@-[(YI]-@-
+[30rup]--O--
+I--3 [70SL] 3 ^ [@PDGJ]-
+@ [^(SL]-[@PJ] @ [^(]-
+[7aIDG]-[r(QSL]-[7PJ] 7 [r(QSL] [g!*PSJ]-
+* [qWTSL]-[*PJ] * [qWT]-
+[$IPSG]-[*QPJ]-[OS4ig]-[q*PJ] [@YD]-
+@ [^(PDGJ]-[@PDGJ] @ [^(] [!*] 
+[7PDGJ]-[(Qrak]-[7PJ] 7 [(Qrak] [g!*OSH]-
+[*S] [qgWTL] L [*Lc] [*L] [qgWTL] S 
+[dg^HL] 4 ^ ^ [qdgEHL] ^ ^ [h@DJZ]-
+@ [^(SL]-[@PJ] @ [^(]-
+[7aIDG]-[r(QSL]-[7PJ] 7 [r(QSL] [g!*PSJ]-
+[*PJ] [WTqak]-[*OH] * [qWTIG]-
+[$IPSG]-[*QPJ]-[OS4ig]-[q*PJ] [@YD]-
+@ [^(PDGJ] @ [@PDGJ]-[^(] [!*] 
+[7PDGJ]-[(Qrak]-[7PJ] 7 [(Qrak] [g!*OSH]-
+[*S] [qgWTL] L [*Lc] [*L] [0qgWTL] S 
+[dg^HL] 4 ^ ^ [qdgEHL] ^ ^ [4DGJZ] 
+7-[$7] 7 [7a$ID] 7 [7$D] [7adg] 
+[4^] ^ [^4adg] ^ [4^P] [^dg] [4^O] ^ 
+[@^(IDG]-[^(] [@G] [^(PDG] @ [^(] [@DGk] 
+[^(] @ [^(k] [@DGk] [^(] [@DGJ] [^(] @ 
+[7DGL]-[$7] 7 [$DG7k] 7 [$7] 7 
+[4dg^J] ^ [4^] ^ [4dg^H] ^ [4^] ^ 
+[@(DGk]-[^(] @ [^(DGJ] @ [^(] @ 
+[^(PDH] @ [^(] @ [^(PDG] @ [^(] @ 
+[DG7pj]--[OH]--
+[!IOSG]--! [*SL] % ! [@PDGJ]-
+[@O] [^(SH] [@O] [@i] [^(] [TI]-
+7 [7Y] [r*QID] D [7GZ] [7D] [(Q] [yi^P]-
+[^P] [qdEJ] P [^i] ^ [Eqy]-
+^ [^y] [Eqid] d [^gz] [^d] [qE] [7rYI]-
+[7I] [ra(QG] I [7S] 7 [(QYIP]-
+7 [7P] [r(QDJ] J [7ZB] [7J] [r(QDJ] P 
+[%YP]-[%YP]-[%YP]-[%YOS]-[(W]-
+[!*TI] % q * [%Ti] ! !-
+[@(TI]-[QE] (-( [QES]-
+[(S]-S[QE]S( S (a[QE][YIP]-
+[$7]-[QEO] (-( [QES]-
+[(S]-S[QE]S( S (D[QE]-[OS]
+%-[QEP] (-( [QEP]-
+[(P]-[QEa] ( P ( [QES]-
+[4yi^O]-[qW] 9 S 9 [qW]-
+[9I]-[qW] ^ [Eqi] ^ [4^] ^ 
+[@EYI]-( ^ [@IPG] ^ [QIPG] ^ 
+[@IPG] ^ [(IPG] [^IPG] @ [^Oig] Q [IPDG] 
+7-E Q [7IPG] Q [YIPG] Q 
+[7IPG] Q [EIPG] Q 7 Q [Yig] [IPDG] 
+%-E ( [%IPG] ( [rIPG] ( 
+[%YD] [(ig] [EIG] [(IG] % [(ig] [rYD]-
+[^Oyid]-I [Wqyi] O ^I--i 
+[yi]^ E q [9I] ^ [^i]-
+[7rQY]-7-[7rY]-[7Y] [ryi] 
+^-[^ryi]-[^E] [yi] [^W]-
+[@(QYI]-@ I [@EYI]-[@I] [YIa] 
+@-[@a] [YIa] @ [YIP] @-
+[7YIS]-7-[YI7a]-7-
+[yi^P]-^-[yi^O]-^-
+[@(YIa]-@-[@YIP]-@-
+[QYO]-@-[(YI]-@-
+[30rup]--O--
+I--3 [70SL] 3 ^ [@PDGJ]-
+@ [^(SL]-[@PJ] @ [^(]-
+[7aIDG]-[r(QSL]-[7PJ] 7 [r(QSL] [g!*PSJ]-
+* [qWTSL]-[*PJ] * [qWT]-
+[$IPSG]-[*QPJ]-[OS4ig]-[q*PJ] [@YD]-
+@ [^(PDGJ]-[@PDGJ] @ [^(] [!*] 
+[7PDGJ]-[(Qrak]-[7PJ] 7 [(Qrak] [g!*OSH]-
+[*S] [qgWTL] L [*Lc] [*L] [qgWTL] S 
+[dg^HL] 4 ^ ^ [qdgEHL] ^ ^ [h@DJZ]-
+@ [^(SL]-[@PJ] @ [^(]-
+[7aIDG]-[r(QSL]-[7PJ] 7 [r(QSL] [g!*PSJ]-
+[*PJ] [WTqak]-[*OH] * [qWTIG]-
+[$IPSG]-[*QPJ]-[OS4ig]-[q*PJ] [@YD]-
+@ [^(PDGJ] @ [@PDGJ]-[^(] [!*] 
+[7PDGJ]-[(Qrak]-[7PJ] 7 [(Qrak] [g!*OSH]-
+[*S] [qgWTL] L [*Lc] [*L] [0qgWTL] S 
+[dg^HL] 4 ^ ^ [qdgEHL] ^ ^ [4DGJZ] 
+7-[$7] 7 [7a$ID] 7 [7$D] [7adg] 
+[4^] ^ [^4adg] ^ [4^P] [^dg] [4^] [^O] 
+[@^(IDG]-[^(] [@G] [^(PDG] @ [^(] [@DGk] 
+[^(] @ [^(k] [@DGk] [^(] [@DGJ] [^(] @ 
+[7DGL]-[$7] 7 [$DG7k] 7 [$7] 7 
+[4dg^J] ^ [4^] ^ [4dg^H] ^ [4^] ^ 
+[@(DGk]-[^(] @ [^(DGJ] @ [^(] @ 
+[^(PDH] @ [^(] @ [^(PDG] @ [^(] @ 
+[DG7pj]--[OH]--
+[!IOSG]--! [*SL] % ! [PDGJ] 
+[@(] G [(L] [QEY] l g-[@^(] 
+[@^(] [@^(] [@^(]-[@^(] [@^(]-[@(DGJ]-
+k [(J] [QEY] g L-[@^(] 
+[@^(] [@^(] [@^(]-[@^(] [@^(]-[@(IPD]-
+f [(h] [QEY] f D-[@Q] 
+@ @ @ q @ @-[@(Q] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
