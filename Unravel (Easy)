@@ -1,0 +1,54 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.tempo = 60 -- tempo overides the delay to finish (extended by |)
+
+    shared.scr = [[ J l-J-j h-
+l-J-j-h-
+h g--D D-g 
+d----
+d [(d]-d d ( z z-
+w--w--
+J [qj]-j j q J J-
+9--9--
+J [^(l]-J-[^(j] h-
+l [9w] J-j [9w] h-
+h [8qg]--D [8qD]-g 
+d [^9]--[^9]--
+d [^(d]-d d [^(] z z-
+[9w]--[9w]--
+J [8qj]-j j [8q] J J-
+[5w]----
+d-s-P d-s-
+P [5w][5w] [5w] [5w][5w] [5w][5w] [5w][5w]-
+[wd]J d[qh] d ( d [9s]d-
+[wd]J d[qh] d ( J 9j-
+[wd]J d[qh] d ( d [9s]d-
+[wd]J d[qh] d ( J Qj-
+E-w-t E-w-
+[tp] [yP]-P-[tP]--P 
+d [qd]-s-s--
+P [qs]-P-[tp]-i-
+y t--E--
+i [Ei] y[ey]-[ey] [Et] y[ey]-
+[ei] [Ei] y[ey]-[ey] [Et] y[ey]-
+[ei] [Ei] y[ey]-[Ey] [et]-[Ey]-
+[Ey]--y d-s 
+s [@^(d]-s s s-P-
+p [48q] P-p-i-
+i [59wd]-s s-P-
+P [269p]-P-g-p-
+P [@^(h]-g d-P-
+P [48qP]-p o-p-
+P [59w]----
+J [269j]-J-j-g-
+i [@^(d] ss-s s PP-
+P [48qp]-P-p-i-
+i [59wd] ss-s s PP-
+P [269p]-P-g-p-
+P [@^(h]-g d P--
+P [48qP]-p o-p-
+P [59w] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
