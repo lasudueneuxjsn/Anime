@@ -2,7 +2,7 @@
 
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-    shared.ftime = 153 -- time in seconds for the song to finish (extended by |)
+    shared.ftime = 100 -- time in seconds for the song to finish (extended by |)
 
     shared.scr = [[ G I G I H I H I 
 g I g I G I G I 
